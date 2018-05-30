@@ -1,6 +1,8 @@
 package com.example.hannahgreen.topsongs;
 
-public class Song {
+import java.io.Serializable;
+
+public class Song implements Serializable{
     private Integer ranking;
     private String title;
     private String artist;
